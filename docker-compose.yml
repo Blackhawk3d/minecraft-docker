@@ -2,6 +2,7 @@ version: '3.7'
 services:
     minecraft:
         build: .
+        image: minecraft
         volumes:
             - minecraft_server:/home/minecraft/minecraft_server
         ports:
